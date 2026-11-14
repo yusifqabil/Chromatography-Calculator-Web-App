@@ -31,7 +31,7 @@ with tab1:
 #Creating Second Tab for Flow Rate Conversion
 with tab2:
     #Create Two tabs to be able to convert from Volumetric Flowrate to linear velocity and vice versa 
-    tabs = st.tabs(["Volumetric Flowrate to Linear Velocity", "Linear Velocity to Volumetric Flowrate"])
+    tabs = st.tabs(["Linear Velocity to Volumetric Flowrate", "Volumetric Flowrate to Linear Velocity"]) 
     with tabs[0]:
         cols = st.columns(2)
         with cols[0]:
