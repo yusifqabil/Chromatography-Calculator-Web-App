@@ -35,7 +35,7 @@ with tab2:
     with tabs[0]:
         cols = st.columns(2)
         with cols[0]:
-            st.number_input("Linear Velocity (cm/h) :", min_value=0.0, max_value=None, value=100.0, step=1.0, key="linear_velocity   ")
+            st.number_input("Linear Velocity (cm/h) :", min_value=0.0, max_value=None, value=100.0, step=1.0, key="linear_velocity")
             st.number_input("Column Diameter (cm) :", min_value=0.0, max_value=None, value=1.0, step=0.1, key="column_diameter_flow")
             #Creating a session state variable to store the converted flow rate      
             if "converted_flow_rate" not in st.session_state:
